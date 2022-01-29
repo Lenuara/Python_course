@@ -12,7 +12,7 @@ my_set = {'qq', 'ww', '123', 456}       # 7) Создать переменную
 my_frozen_set = frozenset(my_set)       # 8) Создать переменную типа Frozen set
 my_dict = {'name': 'Vasya', 'age': 25}  # 9) Создать переменную типа Dict
 
-# 10) Вывод в консоль переменных и их типов данных
+#  Вывод в консоль переменных и их типов данных
 print(type(my_string), my_string)
 print(type(my_int), my_int)
 print(type(my_float), my_float)
