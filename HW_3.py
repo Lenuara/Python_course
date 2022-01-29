@@ -40,8 +40,6 @@ if item_1 < comp_item:
 else:
     print('Переменная item_1 больше или равна', comp_item)
 
-
-
 #  25. Сделать if в котором будет условие: если item_2, то вывести в консоль (“Переменная item_2 = ”, item_2), иначе, вывести в консоль (“Переменная item_2 = ”, item_3)
 if item_2:
     print('Переменная item_2 = ', item_2)
@@ -70,12 +68,21 @@ else:
 currency_convertor = item_2
 #  30. Сделать if в котором будет условие: если currency_convertor, то выполнять следующие шаги задания, иначе, вывести в консоль (“Переменная currency_convertor = ”, item_3)
 
+
+
 if currency_convertor:
     currency_usd = usd_item     # 31.1 Создать переменную currency_usd со значением usd_item
     target_currency = eur_item  #  31.2 Создать переменную target_currency со значением eur_item
     target_currency_amount = 50 #  31.3 Создать переменную target_currency_amount значением 50
     currency_result = 0         #  31.4 Создать переменную currency_result со значением 0
-#  31.4 Сделать if в котором будет условие: если target_currency равен ‘eur’, то в теле этого if в        значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_eur_rate. Результат вывести в консоль (target_currency_amount, eur_item, “=”, currency_result, usd_item)
+
+    print(target_currency)
+    #  31.4 Сделать if в котором будет условие: если target_currency равен ‘eur’, то в теле этого if в        значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_eur_rate. Результат вывести в консоль (target_currency_amount, eur_item, “=”, currency_result, usd_item)
+    if target_currency == eur_item:
+        print(target_currency)
+        currency_result = target_currency_amount / usd_eur_rate
+        print(target_currency_amount, eur_item, '=', currency_result, usd_item)
+
 #  31.5 Сделать elif в котором будет условие: если target_currency равен ‘uah’, то в теле этого if в значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_uah_rate. Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)
 #  31.6 Сделать elif с остальными валютами
 #  31.7 Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
