@@ -94,8 +94,8 @@ print('b_item_relult_multi =', b_item_relult_multi) # 55. Вывести b_item_
 #b_item_relult_division = b_item_t / b_item_f              # 56. Создать переменную b_item_relult_division и присвоить деление b_item_t и b_item_f
 #print('b_item_relult_division =', b_item_relult_division) # 57. Вывести b_item_relult_division в консоль. (Получить ошибку)
 
-b_item_1_int = int(b_item_t)        # 58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
+b_item_1_int = int(b_item_t)            # 58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
 print('b_item_1_int =', b_item_1_int)   # 59. Вывести b_item_1_int в консоль.
 
-b_item_2_int = int(b_item_f)    # 60. Создать переменную b_item_2_int и присвоить явное приведение b_item_f к int
-print('b_item_2_int =', b_item_2_int)# 61. Вывести b_item_2_int в консоль.
+b_item_2_int = int(b_item_f)            # 60. Создать переменную b_item_2_int и присвоить явное приведение b_item_f к int
+print('b_item_2_int =', b_item_2_int)   # 61. Вывести b_item_2_int в консоль.
