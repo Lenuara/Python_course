@@ -1,7 +1,9 @@
 # Python сourse
 # HomeWork 2
 
+
 import math   # Импорт модуля для работы с математическими функциями
+
 
                        # Arithmetic
 

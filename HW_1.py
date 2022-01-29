@@ -1,7 +1,7 @@
 # Python сourse
 # HomeWork 1
 
-# Переменные
+# Объявлением переменных
 my_string = 'Python'    # 1) Создать переменную типа String
 my_int = 3              # 2) Создать переменную типа Integer
 my_float = 3.1415       # 3) Создать переменную типа Float
