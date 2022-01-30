@@ -70,7 +70,6 @@ currency_convertor = item_2
 #  иначе, вывести в консоль (“Переменная currency_convertor = ”, item_3)
 
 
-
 if currency_convertor:
     currency_usd = usd_item     # 31.1 Создать переменную currency_usd со значением usd_item
     target_currency = rub_item  #  31.2 Создать переменную target_currency со значением eur_item
